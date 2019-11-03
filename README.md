@@ -11,7 +11,7 @@ Sunday the 10th of Nov, 2019
 ---
 [Link to Source Files](/src)
 
-[Link to Test Files](/src/Tests)
+[Link to Test Files](/Tests)
 
 [Link to Dockerfile](/Dockerfile)
 
