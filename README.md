@@ -1,8 +1,13 @@
-# Calculator 1 Assignment: Individual
-## Student Name: 
+# Statistical Calculator & 
+## Student Names: 
 ### Faisal Sukkar
+### Steven Wong
+
+[![Build Status](https://travis-ci.com/curiousbasil/statscalc1.svg?branch=master)](https://travis-ci.com/curiousbasil/statscalc1)
+
+
 Assignment Due Date:
-Thursday the 1st of Nov, 2019 11:59pm
+Sunday the 10th of Nov, 2019
 ---
 [Link to Source Files](/src)
 
@@ -10,6 +15,6 @@ Thursday the 1st of Nov, 2019 11:59pm
 
 [Link to Dockerfile](/Dockerfile)
 
-[Link to CSV Files](/CSVFiles)
+[Link to CSV Files](/src/CSVFiles)
 
 ---

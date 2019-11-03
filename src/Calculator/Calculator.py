@@ -1,19 +1,24 @@
-def addition (a, b):
+def addition(a, b):
     return a + b
 
-def subtraction (a, b):
+
+def subtraction(a, b):
     return a - b
 
-def multiplication (a, b):
+
+def multiplication(a, b):
     return a * b
 
-def division (a, b):
-    return a /b
 
-def squared (a):
+def division(a, b):
+    return a / b
+
+
+def squared(a):
     return a ** 2
 
-def sqrt (a):
+
+def sqrt(a):
     return a ** 0.5
 
 
@@ -22,7 +27,7 @@ class Calculator:
 
     def __init__(self):
         x = 2 + 2
-        self.result= x;
+        self.result = x;
         pass
 
     def add(self, a, b):
