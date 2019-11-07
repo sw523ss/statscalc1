@@ -3,7 +3,7 @@
 ### Faisal Sukkar
 ### Steven Wong
 
-[![Build Status](https://travis-ci.com/curiousbasil/statscalc1.svg?branch=master)](https://travis-ci.com/curiousbasil/statscalc1)
+[![Build Status](https://travis-ci.com/curiousbasil/calculator1.svg?branch=master)](https://travis-ci.com/curiousbasil/calculator1)
 
 
 Assignment Due Date:
