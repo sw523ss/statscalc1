@@ -28,7 +28,8 @@ class MyTestCase(unittest.TestCase):
         test_data = CsvReader("Tests/Data/Unit_Test_Calculator.csv").data
         for row in test_data:
             result = float(row['Multiply Result'])
-            self.assertEqual(self.calculator.multiply(row['Multiply 1'], row['Multiply 2']), float(row['Multiply Result']))
+            self.assertEqual(self.calculator.multiply(row['Multiply 1'], row['Multiply 2']),
+                             float(row['Multiply Result']))
             self.assertEqual(self.calculator.result, result)
 
     def test_division(self):
