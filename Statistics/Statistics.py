@@ -7,9 +7,9 @@ class Statistics(Calculator):
     data = []
 
     def __init__(self):
-        super().__init__()
+        pass
 
-    def mean(self):
-        self.result = mean(self.data)
+    def mean(self, val1, val2, val3, val4, val5, val6, val7, val8, val9, val10):
+        self.result = mean(val1, val2, val3, val4, val5, val6, val7, val8, val9, val10)
         return self.result
 
