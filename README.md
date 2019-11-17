@@ -22,3 +22,6 @@ Saturday the 16th of Nov, 2019
 [Link to Stat101 ](/stat101.md)
 
 ---
+
+### Changelog:
+[Log.csv](./log.csv)
