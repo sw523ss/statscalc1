@@ -23,4 +23,8 @@ Saturday the 16th of Nov, 2019
 
 [Link to Travis File](/.travis.yml)
 
+[Link to Python101 ](/python101.md)
+
+[Link to Stat101 ](/stat101.md)
+
 ---
