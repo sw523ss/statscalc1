@@ -22,6 +22,15 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.statistics.result, result)
             pprint(test_data)
 
+    def test_sample_mean(self):
+        test_data = CsvReader('Tests/Data/Unit_Test_Statistics.csv').data
+        for row in test_data:
+            result = float(row['smean1'])
+            self.assertEqual(self.statistics.sample_mean(row['ds1_value1'], row['ds1_value2'], row['ds1_value3'],
+                                                  row['ds1_value4'], row['ds1_value5']), result)
+            self.assertEqual(self.statistics.result, result)
+            pprint(test_data)
+
     def test_median(self):
         test_data = CsvReader('Tests/Data/Unit_Test_Statistics.csv').data
         for row in test_data:
