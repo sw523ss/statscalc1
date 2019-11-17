@@ -53,3 +53,7 @@ Saturday the 16th of Nov, 2019
 <li>Initial commit curiousbasil* 11/2/19, 8:52 PM</li>
 
 </ol>
+
+### References:
+
+https://www.geeksforgeeks.org/finding-mean-median-mode-in-python-without-libraries/
