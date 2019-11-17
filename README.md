@@ -31,7 +31,7 @@ Saturday the 16th of Nov, 2019
 <li>Task: Added python101.md and stat101.md link in read.me STEVE 11/16/19, 10:06 PM</li>
 <li>Task: Added image folder and python101.md STEVE 11/16/19, 9:35 PM<li>
 <li>Fix: Updated the due date. STEVE 11/16/19, 9:28 PM</li>
-<li>Merge pull request #1 from curiousbasil/master sw523ss* 11/16/19, 9:20 PM<li>
+<li>Merge pull request #1 from curiousbasil/master sw523ss* 11/16/19, 9:20 PM</li>
 <li>Feature: Added mode Module Task : Added mode in unit test file Task: Added mode in Statistics File Task: Tested Mean, Median and Mode Successful curiousbasil 11/16/19, 8:59 PM</li>
 <li>Feature: Added Median Module Task : Added Median in unit test file Task: Added Median in Statistics File curiousbasil 11/16/19, 8:03 PM</li>
 <li>Task: Added requirements.txt file curiousbasil 11/16/19, 5:58 PM<li>
