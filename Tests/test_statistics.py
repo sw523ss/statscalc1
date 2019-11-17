@@ -81,5 +81,16 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.statistics.result, result)
 
 
+    def test_zscore(self):
+        test_data = CsvReader('Tests/Data/Unit_Test_Statistics.csv').data
+        for row in test_data:
+            result = float(row['zscoreresult'])
+            self.assertEqual(self.statistics.zscore(row['ds1_value1'], row['zmean'], row['zstdev']), result)
+            self.assertEqual(self.statistics.result, result)
+
+    def test_results_property(self):
+        self.assertEqual(self.statistics.result, 0)
+
+
 if __name__ == '__main__':
     unittest.main()
