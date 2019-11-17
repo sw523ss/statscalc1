@@ -50,6 +50,16 @@ class MyTestCase(unittest.TestCase):
                                                       row['ds1_value10']), result)
             self.assertEqual(self.statistics.result, result)
 
+    def test_standarddeviation(self):
+        test_data = CsvReader('Tests/Data/Unit_Test_Statistics.csv').data
+        for row in test_data:
+            result = float(row['pop_std_dev1'])
+            self.assertEqual(self.statistics.standarddeviation(row['ds1_value1'], row['ds1_value2'], row['ds1_value3'],
+                                                      row['ds1_value4'], row['ds1_value5'], row['ds1_value6'],
+                                                      row['ds1_value7'], row['ds1_value8'], row['ds1_value9'],
+                                                      row['ds1_value10']), result)
+            self.assertEqual(self.statistics.result, result)
+
 
 if __name__ == '__main__':
     unittest.main()
