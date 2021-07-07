@@ -15,4 +15,4 @@ def mode(val1, val2, val3, val4, val5, val6, val7, val8, val9, val10):
             mode_result = mode_calc[0]
         return mode_result
     except TypeError:
-        print("Median is a Number . Cannot Input Text")
+        print("Modeis a Number . Cannot Input Text")
